@@ -1,3 +1,10 @@
+#Prerequisite
+1. Laravel 7.3
+2. Mysql
+3. Install composer
+4. Install npm
+
+#Steps
 1. Export dropee.sql to your host.
 
 2. Configure mysql as follow:
@@ -7,9 +14,15 @@
     DB_USERNAME=root
     DB_PASSWORD=
 
-2. Put dropee-dev folder in your webserver dir such as www/
+3. Put the folder in your webserver dir such as www/
 
-3. Cd to dropee-dev folder and run "php artisan run serve"
+4. Cd to the folder.
 
-4. Go to http://localhost:8000 on your browser. This development is tested on chrome and firefox.
+5. Run "composer install".
+
+6. Run "npm install"
+
+7. Run "php artisan serve'
+
+8. Go to http://localhost:8000 on your browser. This development is tested on chrome and firefox.
 
