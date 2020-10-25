@@ -1,6 +1,3 @@
-# dropee-drag-drop
- Simple drag drop table using laravel, jquery
-
 1. Export dropee.sql to your host.
 
 2. Configure mysql as follow:
@@ -15,3 +12,4 @@
 3. Cd to dropee-dev folder and run "php artisan run serve"
 
 4. Go to http://localhost:8000 on your browser. This development is tested on chrome and firefox.
+
