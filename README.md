@@ -5,7 +5,7 @@
 4. Install npm
 
 #Steps
-1. Export dropee.sql to your host.
+1. Export dropee.sql to your host(File in root folder).
 
 2. Configure mysql as follow:
     DB_HOST=127.0.0.1
